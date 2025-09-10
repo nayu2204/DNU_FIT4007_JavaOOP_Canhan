@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Vid2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập bán kính r: ");
+        double r = sc.nextDouble();
+
+        double chuVi = 2 * Math.PI * r;
+        double dienTich = Math.PI * r * r;
+
+        System.out.println("Chu vi: " + chuVi);
+        System.out.println("Diện tích: " + dienTich);
+    }
+}
