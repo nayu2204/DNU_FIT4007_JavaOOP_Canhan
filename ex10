@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Vid10 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nhập ký tự thường (a-y): ");
+        char ch = sc.next().charAt(0);
+
+        char next = (char)(ch + 1);
+        System.out.println("Ký tự kế tiếp: " + next);
+    }
+}
